@@ -12,12 +12,12 @@ This is a search plugin for qBittorrent that allows you to search for anime torr
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/AlaaBrahim/qBitTorrent-animetosho-search-plugin/releases) page.
-2. Open qBittorrent.
-3. Navigate to `View` > `Search` > `Search Engine...`.
-4. Click on the "Install a new one" link.
-5. Select the downloaded plugin file.
-6. Click "Install" to add the AnimeTosho search engine to qBittorrent.
+1. Open qBittorrent.
+2. Navigate to the "Search" tab.
+3. Click on the "Search Plugins" button.
+4. In the Search Plugins window, click on the "Install a new one".
+5. Click on the "Web link" tab
+6. Paste the following web link: `https://raw.githubusercontent.com/AlaaBrahim/qBitTorrent-animetosho-search-plugin/main/animetosho.py` and click "OK".
 
 ## Usage
 
