@@ -17,7 +17,7 @@ This is a search plugin for qBittorrent that allows you to search for anime torr
 3. Click on the "Search Plugins" button.
 4. In the Search Plugins window, click on the "Install a new one".
 5. Click on the "Web link" tab
-6. Paste the following web link: `https://raw.githubusercontent.com/AlaaBrahim/qBitTorrent-animetosho-search-plugin/main/animetosho.py` and click "OK".
+6. Paste the following web link: `https://raw.githubusercontent.com/bre7/qBitTorrent-animetosho-search-plugin/json-api/animetosho.py` and click "OK".
 
 ## Usage
 
@@ -50,11 +50,11 @@ If you would like to contribute to the development of this plugin, please follow
 2. Create a new branch for your feature or bug fix: `git checkout -b feature/new-feature` or `git checkout -b bugfix/fix-description`.
 3. Make your changes and commit them: `git commit -m 'Your commit message'`.
 4. Push to the branch: `git push origin feature/new-feature`.
-5. Open a pull request on the [GitHub repository](https://github.com/AlaaBrahim/qBitTorrent-animetosho-search-plugin).
+5. Open a pull request on the [GitHub repository](https://github.com/bre7/qBitTorrent-animetosho-search-plugin).
 
 ## Issues
 
-If you encounter any issues or have suggestions, please open an issue on the [GitHub repository](https://github.com/AlaaBrahim/qBitTorrent-animetosho-search-plugin/issues).
+If you encounter any issues or have suggestions, please open an issue on the [GitHub repository](https://github.com/bre7/qBitTorrent-animetosho-search-plugin/issues).
 
 ## License
 
