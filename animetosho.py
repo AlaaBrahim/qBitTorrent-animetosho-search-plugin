@@ -45,6 +45,5 @@ class animetosho(object):
             current_result["seeds"] = result["seeders"]
             current_result["leech"] = result["leechers"]
             current_result["desc_link"] = result["link"]
-            current_result["engine_url"] = self.engine_url
 
             prettyPrinter(current_result)
