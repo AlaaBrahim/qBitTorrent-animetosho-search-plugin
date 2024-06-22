@@ -1,4 +1,4 @@
-# VERSION: 2.00
+# VERSION: 2.01
 # AUTHORS: anon
 # LICENSING INFORMATION
 
@@ -41,7 +41,7 @@ class animetosho(object):
             current_result = {"engine_url": "https://animetosho.org/"}
             current_result["link"] = result["magnet_uri"]
             current_result["name"] = result["title"]
-            current_result["size"] = result["total_size"]
+            current_result["size"] = str(result["total_size"]) + " B"
             current_result["seeds"] = result["seeders"]
             current_result["leech"] = result["leechers"]
             current_result["desc_link"] = result["link"]
