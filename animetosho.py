@@ -26,7 +26,6 @@ class animetosho(object):
         "all": "all",
         "anime": "anime",
     }
-    engine_url="https://animetosho.org/"
 
     def __init__(self):
         pass
@@ -39,13 +38,13 @@ class animetosho(object):
         link = json.loads(retrieve_url(url))
 
         for result in link:
-            dic={}
-            dic["link"] = result["magnet_uri"]
-            dic["name"] = result["title"]
-            dic["size"] = f"{result["total_size"]}B"
-            dic["seeds"] = result["seeders"]
-            dic["leech"] = result["leechers"]
-            dic["desc_link"] = result["link"]
-            dic["engine_url"] = self.engine_url
+            current_result = {"engine_url": "https://animetosho.org/"}
+            current_result["link"] = result["magnet_uri"]
+            current_result["name"] = result["title"]
+            current_result["size"] = f"{result["total_size"]}B"
+            current_result["seeds"] = result["seeders"]
+            current_result["leech"] = result["leechers"]
+            current_result["desc_link"] = result["link"]
+            current_result["engine_url"] = self.engine_url
 
-            prettyPrinter(dic)
+            prettyPrinter(current_result)
