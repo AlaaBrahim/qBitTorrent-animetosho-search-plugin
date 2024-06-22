@@ -33,7 +33,7 @@ class animetosho(object):
     def download_torrent(self, info):
         print(download_file(info))
 
-    def search(self, what, cat="all"):
+    def search(self, what, cat='all'):
         url = f"https://feed.animetosho.org/json?q={what}"
         link = json.loads(retrieve_url(url))
 
