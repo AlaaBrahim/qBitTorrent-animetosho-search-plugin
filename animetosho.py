@@ -19,6 +19,7 @@ from helpers import retrieve_url, download_file
 from novaprinter import prettyPrinter
 import json
 
+
 class animetosho(object):
     url = "https://animetosho.org"
     name = "Anime Tosho"
@@ -47,6 +48,7 @@ class animetosho(object):
             current_result["desc_link"] = result["link"]
 
             prettyPrinter(current_result)
+
 
 if __name__ == "__main__":
     a = animetosho()
